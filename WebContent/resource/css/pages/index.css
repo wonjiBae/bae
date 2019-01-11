@@ -1,0 +1,24 @@
+.index {position:absolute;}
+.PageContent {background-color:rgb(255,255,255); position:relative;}
+.Section {height:720px; position:relative;}
+.CenterBox_12 {position:relative; width:960px;}
+.Carousel > .IUCarousel-Pager {bottom:40px; text-align:center; visibility:visible;}
+.Carousel > .IUCarousel-Prev {display:none;}
+.Carousel > .IUCarousel-Pager > li:hover {background-color:rgb(0,0,0);}
+.Carousel > .IUCarousel-Pager > li {background-color:rgb(145,145,145); border-radius:7px; margin:5px; padding:7px;}
+.Carousel > .IUCarousel-Pager > li.active {background-color:rgb(0,0,0);}
+.Carousel > .IUCarousel-Next {display:none;}
+.Carousel {height:215px; left:0px; position:absolute; top:0px; width:375px;}
+.CarouselItem {height:100%; position:relative;}
+.CarouselItem_15 {height:100%; position:relative;}
+.CarouselItem_16 {height:100%; position:relative;}
+.CarouselItem_17 {height:100%; position:relative;}
+@media screen and (max-width:959px) {
+  .CenterBox_12 {width:320px;}
+  .Carousel > .IUCarousel-Pager > li:hover {background-color:rgb(0,0,0);}
+  .Carousel > .IUCarousel-Prev {display:none;}
+  .Carousel > .IUCarousel-Pager {bottom:40px; text-align:center; visibility:visible;}
+  .Carousel > .IUCarousel-Next {display:none;}
+  .Carousel > .IUCarousel-Pager > li.active {background-color:rgb(0,0,0);}
+  .Carousel > .IUCarousel-Pager > li {background-color:rgb(145,145,145); border-radius:7px; margin:5px; padding:7px;}
+}
